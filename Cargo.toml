@@ -106,4 +106,4 @@ clippy_lints = { path = "src/tools/clippy/clippy_lints" }
 # can do it once here, instead of all over the place, by uncommenting the
 # following two lines.
 [patch."https://github.com/softdevteam/yk"]
-ykpack = { path = "../yk/ykpack" }
+ykpack = { git = "https://github.com/vext01/yk", branch = "yk-trace-tidying" }

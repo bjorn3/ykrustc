@@ -5305,6 +5305,7 @@ dependencies = [
 [[package]]
 name = "ykpack"
 version = "0.1.0"
+source = "git+https://github.com/vext01/yk?branch=yk-trace-tidying#c0969bc4bc12c9a7b260b570eb9736738eb4f349"
 dependencies = [
  "fallible-iterator",
  "rmp-serde",
